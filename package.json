@@ -2,7 +2,7 @@
     "name": "ultra-dark-neon-theme",
     "displayName": "Ultra Dark Neon Theme",
     "description": "A deeply dark VS Code theme with neon highlights.",
-    "version": "0.0.2",
+    "version": "0.0.3",
     "publisher": "raspberrykitty1",
     "engines": {
       "vscode": "^1.50.0"
@@ -15,7 +15,8 @@
         {
           "label": "Ultra Dark Neon",
           "uiTheme": "vs-dark",
-          "path": "./themes/ultra-dark-neon-color-theme.json"
+          "path": "./themes/ultra-dark-neon-color-theme.json",
+          "icon": "images/icon.png"
         }
       ]
     }
