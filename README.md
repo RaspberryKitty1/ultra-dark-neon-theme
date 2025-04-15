@@ -17,7 +17,7 @@ Welcome to the **Ultra Dark Neon Color Theme**! This is a custom Visual Studio C
 
 ## Installation
 
-1. Download the `.vsix` file for this theme.
+1. Download the [`.vsix`](https://github.com/raspberrykitty1/ultra-dark-neon-theme/releases/latest/) file for this theme.
 2. Open **VSCode**.
 3. Navigate to the Extensions view (`Ctrl+Shift+X`).
 4. Click on the three dots in the top-right corner and select `Install from VSIX...`.
