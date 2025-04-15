@@ -8,14 +8,14 @@ Welcome to the **Ultra Dark Neon Color Theme**! This is a custom Visual Studio C
 
 - **Bright Neon Palette**: Bold, high-contrast neon colors for keywords, strings, variables, and functions, ensuring readability and eye-catching aesthetics.
 - **Syntax Support**: Comprehensive support for a variety of languages, including:
-  - JavaScript, Python, JSON, Shell Script (Bash), etc...
+  - JavaScript, Python, JSON, Shell Script (Bash)
+  - HTML, CSS, Markdown, and more
+  - NGINX syntax support for configuration files
 - **Beautifully Structured**: Each language has its own unique color scheme, making it easy to differentiate between elements while coding.
 
 ---
 
 ## Installation
-
-### Method 1: Install via VSIX File
 
 1. Download the `.vsix` file for this theme.
 2. Open **VSCode**.

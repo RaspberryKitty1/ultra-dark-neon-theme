@@ -888,6 +888,337 @@
             "settings": {
                 "foreground": "#7CFFB0"
             }
+        },
+        {
+            "name": "String (Double/Single)",
+            "scope": [
+                "string.quoted.double",
+                "string.quoted.single"
+            ],
+            "settings": {
+                "foreground": "#ff7edb"
+            }
+        },
+        {
+            "name": "String Punctuation",
+            "scope": [
+                "punctuation.definition.string.begin",
+                "punctuation.definition.string.end"
+            ],
+            "settings": {
+                "foreground": "#f97e72"
+            }
+        },
+        {
+            "name": "Generic Function Name",
+            "scope": "entity.name.function",
+            "settings": {
+                "foreground": "#36f9f6"
+            }
+        },
+        {
+            "name": "Generic Function Call",
+            "scope": "meta.function-call",
+            "settings": {
+                "foreground": "#72f1b8"
+            }
+        },
+        {
+            "name": "Decorator / Annotation",
+            "scope": [
+                "meta.decorator",
+                "meta.annotation"
+            ],
+            "settings": {
+                "foreground": "#fede5d",
+                "fontStyle": "italic"
+            }
+        },
+        {
+            "name": "Class / Type Name",
+            "scope": [
+                "entity.name.class",
+                "entity.name.type.class",
+                "support.class"
+            ],
+            "settings": {
+                "foreground": "#fc98df"
+            }
+        },
+        {
+            "name": "Import / Export Keywords",
+            "scope": [
+                "keyword.control.import",
+                "keyword.control.export"
+            ],
+            "settings": {
+                "foreground": "#2EE2FA"
+            }
+        },
+        {
+            "name": "HTML/XML Tag Name",
+            "scope": [
+                "entity.name.tag",
+                "meta.tag"
+            ],
+            "settings": {
+                "foreground": "#ff7edb"
+            }
+        },
+        {
+            "name": "HTML/XML Attribute Name",
+            "scope": "entity.other.attribute-name",
+            "settings": {
+                "foreground": "#f97e72"
+            }
+        },
+        {
+            "name": "Doc Comments",
+            "scope": "comment.documentation",
+            "settings": {
+                "foreground": "#36f9f6",
+                "fontStyle": "italic"
+            }
+        },
+        {
+            "name": "Invalid / Deprecated / Unresolved",
+            "scope": [
+                "invalid.illegal",
+                "invalid.deprecated",
+                "invalid.unresolved"
+            ],
+            "settings": {
+                "foreground": "#fe4450",
+                "fontStyle": "underline"
+            }
+        },
+        {
+            "name": "Control Flow Keywords",
+            "scope": "keyword.control.flow",
+            "settings": {
+                "foreground": "#fede5d"
+            }
+        },
+        {
+            "name": "Python Built-ins",
+            "scope": [
+                "support.function.builtin.python",
+                "support.type.builtin.python"
+            ],
+            "settings": {
+                "foreground": "#fe4450"
+            }
+        },
+        {
+            "name": "Python Decorators",
+            "scope": "meta.function.decorator.python",
+            "settings": {
+                "foreground": "#fede5d",
+                "fontStyle": "italic"
+            }
+        },
+        {
+            "name": "Python Class Name",
+            "scope": "entity.name.type.class.python",
+            "settings": {
+                "foreground": "#ff7edb"
+            }
+        },
+        {
+            "name": "Python Exception Keywords",
+            "scope": "keyword.control.exception.python",
+            "settings": {
+                "foreground": "#fc98df"
+            }
+        },
+        {
+            "name": "JSON Property Keys",
+            "scope": "support.type.property-name.json",
+            "settings": {
+                "foreground": "#f97e72"
+            }
+        },
+        {
+            "name": "JSON String Values",
+            "scope": "string.quoted.double.json",
+            "settings": {
+                "foreground": "#72f1b8"
+            }
+        },
+        {
+            "name": "JSON Constant Values",
+            "scope": "constant.language.json",
+            "settings": {
+                "foreground": "#2EE2FA"
+            }
+        },
+        {
+            "name": "Shell Builtins",
+            "scope": [
+                "support.function.builtin.shell",
+                "support.function.builtin.bash"
+            ],
+            "settings": {
+                "foreground": "#36f9f6"
+            }
+        },
+        {
+            "name": "Shell Variables",
+            "scope": [
+                "variable.other.readwrite.shell",
+                "variable.other.readwrite.bash"
+            ],
+            "settings": {
+                "foreground": "#ff7edb"
+            }
+        },
+        {
+            "name": "Shell Keywords",
+            "scope": "keyword.control.shell",
+            "settings": {
+                "foreground": "#fede5d"
+            }
+        },
+        {
+            "name": "Shell Strings",
+            "scope": [
+                "string.quoted.double.shell",
+                "string.quoted.single.shell"
+            ],
+            "settings": {
+                "foreground": "#f97e72"
+            }
+        },
+        {
+            "name": "Shell Operators",
+            "scope": "keyword.operator.shell",
+            "settings": {
+                "foreground": "#fe4450"
+            }
+        },
+        {
+            "name": "NGINX Directives",
+            "scope": "keyword.other.nginx",
+            "settings": {
+                "foreground": "#fede5d"
+            }
+        },
+        {
+            "name": "NGINX Block Headers (e.g. server, location)",
+            "scope": "entity.name.section.nginx",
+            "settings": {
+                "foreground": "#ff7edb"
+            }
+        },
+        {
+            "name": "NGINX Strings",
+            "scope": "string.quoted.double.nginx",
+            "settings": {
+                "foreground": "#72f1b8"
+            }
+        },
+        {
+            "name": "NGINX IPs and Ports",
+            "scope": "constant.numeric.nginx",
+            "settings": {
+                "foreground": "#2EE2FA"
+            }
+        },
+        {
+            "name": "NGINX Variables",
+            "scope": "variable.other.nginx",
+            "settings": {
+                "foreground": "#fe4450"
+            }
+        },
+        {
+            "name": "NGINX Comments",
+            "scope": "comment.line.number-sign.nginx",
+            "settings": {
+                "foreground": "#b6b1b1cc",
+                "fontStyle": "italic"
+            }
+        },
+        {
+            "name": "Escape Sequences",
+            "scope": "constant.character.escape",
+            "settings": {
+                "foreground": "#fe4450"
+            }
+        },
+        {
+            "name": "Invalid / Errors",
+            "scope": "invalid",
+            "settings": {
+                "foreground": "#ffffff",
+                "background": "#fe445088",
+                "fontStyle": "bold"
+            }
+        },
+        {
+            "name": "Deprecated",
+            "scope": "invalid.deprecated",
+            "settings": {
+                "foreground": "#ffffff",
+                "background": "#ff00ff66",
+                "fontStyle": "italic underline"
+            }
+        },
+        {
+            "name": "Python Decorators",
+            "scope": "meta.function.decorator.python",
+            "settings": {
+                "foreground": "#ff7edb"
+            }
+        },
+        {
+            "name": "Python Self / cls",
+            "scope": "variable.language.special.self.python",
+            "settings": {
+                "foreground": "#fe4450"
+            }
+        },
+        {
+            "name": "Python Builtins (e.g. print, len)",
+            "scope": "support.function.builtin.python",
+            "settings": {
+                "foreground": "#36f9f6"
+            }
+        },
+        {
+            "name": "JSON Constants (true/false/null)",
+            "scope": "constant.language.json",
+            "settings": {
+                "foreground": "#fede5d"
+            }
+        },
+        {
+            "name": "JSON String Keys",
+            "scope": "support.type.property-name.json",
+            "settings": {
+                "foreground": "#ff7edb"
+            }
+        },
+        {
+            "name": "Shell Built-ins",
+            "scope": "support.function.builtin.shell",
+            "settings": {
+                "foreground": "#fede5d"
+            }
+        },
+        {
+            "name": "Shell Variables (e.g. $HOME)",
+            "scope": "variable.other.readwrite.shell",
+            "settings": {
+                "foreground": "#2EE2FA"
+            }
+        },
+        {
+            "name": "Shell Redirection / Operators",
+            "scope": "keyword.operator.redirect.shell",
+            "settings": {
+                "foreground": "#fe4450"
+            }
         }
     ]
 }
