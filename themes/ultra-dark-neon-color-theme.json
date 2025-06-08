@@ -43,7 +43,7 @@
         "editorGutter.addedBackground": "#00e676",
         "editorGutter.modifiedBackground": "#40C4FF",
         "editorGutter.deletedBackground": "#FF5252",
-        "editorIndentGuide.background": "#111111",
+        "editorIndentGuide.background1": "#111111",
         "editorLineNumber.foreground": "#ffffff33",
         "editorWhitespace.foreground": "#ffffff44",
         "editorHoverWidget.background": "#0a0a0a",
@@ -1086,14 +1086,14 @@
                 "string.quoted.single.shell"
             ],
             "settings": {
-                "foreground": "#f97e72"
+                "foreground": "#ff6ac1"
             }
         },
         {
             "name": "Shell Operators",
             "scope": "keyword.operator.shell",
             "settings": {
-                "foreground": "#fe4450"
+                "foreground": "#00f6ff"
             }
         },
         {
@@ -1151,7 +1151,6 @@
             "scope": "invalid",
             "settings": {
                 "foreground": "#ffffff",
-                "background": "#fe445088",
                 "fontStyle": "bold"
             }
         },
@@ -1160,7 +1159,6 @@
             "scope": "invalid.deprecated",
             "settings": {
                 "foreground": "#ffffff",
-                "background": "#ff00ff66",
                 "fontStyle": "italic underline"
             }
         },
@@ -1217,8 +1215,127 @@
             "name": "Shell Redirection / Operators",
             "scope": "keyword.operator.redirect.shell",
             "settings": {
-                "foreground": "#fe4450"
+                "foreground": "#feca57"
             }
-        }
+        },
+        {
+            "name": "Java Keywords",
+            "scope": [
+                "source.java keyword",
+                "source.java storage"
+            ],
+            "settings": {
+                "foreground": "#FFD700"
+            }
+        },
+        {
+            "name": "Java Types",
+            "scope": [
+                "source.java storage.type",
+                "source.java entity.name.type.class"
+            ],
+            "settings": {
+                "foreground": "#fc98df"
+            }
+        },
+        {
+            "name": "Kotlin Keywords",
+            "scope": [
+                "source.kotlin keyword",
+                "source.kotlin storage"
+            ],
+            "settings": {
+                "foreground": "#FFD700"
+            }
+        },
+        {
+            "name": "Kotlin Types & Classes",
+            "scope": [
+                "source.kotlin entity.name.type.class",
+                "source.kotlin support.class"
+            ],
+            "settings": {
+                "foreground": "#fc98df"
+            }
+        },
+        {
+            "name": "Swift Keywords",
+            "scope": [
+                "source.swift keyword",
+                "source.swift storage"
+            ],
+            "settings": {
+                "foreground": "#FFD700"
+            }
+        },
+        {
+            "name": "Swift Built-ins & Functions",
+            "scope": [
+                "source.swift support.function",
+                "source.swift support.constant"
+            ],
+            "settings": {
+                "foreground": "#00f6ff"
+            }
+        },
+        {
+            "name": "Rust Keywords",
+            "scope": [
+                "source.rust keyword",
+                "source.rust storage"
+            ],
+            "settings": {
+                "foreground": "#FFD700"
+            }
+        },
+        {
+            "name": "Rust Types & Traits",
+            "scope": [
+                "source.rust entity.name.type",
+                "source.rust support.type"
+            ],
+            "settings": {
+                "foreground": "#fc98df"
+            }
+        },
+        {
+            "name": "PHP Keywords",
+            "scope": [
+                "source.php keyword",
+                "source.php storage"
+            ],
+            "settings": {
+                "foreground": "#FFD700"
+            }
+        },
+        {
+            "name": "PHP Variables",
+            "scope": [
+                "source.php variable.other"
+            ],
+            "settings": {
+                "foreground": "#2EE2FA"
+            }
+        },
+        {
+            "name": "Ruby Keywords",
+            "scope": [
+                "source.ruby keyword",
+                "source.ruby storage"
+            ],
+            "settings": {
+                "foreground": "#FFD700"
+            }
+        },
+        {
+            "name": "Ruby Constants & Classes",
+            "scope": [
+                "source.ruby constant",
+                "source.ruby entity.name.class"
+            ],
+            "settings": {
+                "foreground": "#fc98df"
+            }
+        },
     ]
 }
